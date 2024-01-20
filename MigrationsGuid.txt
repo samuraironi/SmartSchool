@@ -1,0 +1,2 @@
+Add-Migration Auth -StartupProject SmartSchool.Web -OutputDir Data/Migrations
+Update-Database -StartupProject SmartSchool.Web

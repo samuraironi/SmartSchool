@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{DB6B0955-21CE-4950-A45B-C2574D5350EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{578278AC-5D4E-478D-984B-7C0E6084CD7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bff", "Bff", "{CAA858E1-567E-4CD1-8982-179D0204085E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartSchool.Web", "SmartSchool.Web\SmartSchool.Web.csproj", "{AEA605DF-F853-4378-B08B-EE00A01F7B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartSchool.AppHost", "SmartSchool.AppHost\SmartSchool.AppHost.csproj", "{50981591-F7D5-4841-8DA1-EE41BDFC1B4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartSchool.ServiceDefaults", "SmartSchool.ServiceDefaults\SmartSchool.ServiceDefaults.csproj", "{6B4BEAF5-13DC-458C-902D-2D58A0FF8935}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEA605DF-F853-4378-B08B-EE00A01F7B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA605DF-F853-4378-B08B-EE00A01F7B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA605DF-F853-4378-B08B-EE00A01F7B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA605DF-F853-4378-B08B-EE00A01F7B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50981591-F7D5-4841-8DA1-EE41BDFC1B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50981591-F7D5-4841-8DA1-EE41BDFC1B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50981591-F7D5-4841-8DA1-EE41BDFC1B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50981591-F7D5-4841-8DA1-EE41BDFC1B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4BEAF5-13DC-458C-902D-2D58A0FF8935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4BEAF5-13DC-458C-902D-2D58A0FF8935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4BEAF5-13DC-458C-902D-2D58A0FF8935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4BEAF5-13DC-458C-902D-2D58A0FF8935}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEA605DF-F853-4378-B08B-EE00A01F7B1A} = {578278AC-5D4E-478D-984B-7C0E6084CD7E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {383BB030-2057-4468-8144-D0FBDBB747F6}
+	EndGlobalSection
+EndGlobal
